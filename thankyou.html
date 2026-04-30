@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Received — SELDREX</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0B0B0D;
+      --teal: #00F0C8;
+      --electric: #0074FF;
+      --muted: #9aa3b2;
+    }
+    body {
+      margin: 0;
+      font-family: 'Exo 2', system-ui, sans-serif;
+      background: var(--bg);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 0 20px;
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 48px;
+      color: var(--teal);
+      margin-bottom: 16px;
+      text-shadow: 0 0 18px rgba(0,240,200,0.2);
+    }
+    p {
+      font-size: 18px;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+    a.btn {
+      font-family: 'Orbitron', sans-serif;
+      padding: 14px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #071016;
+      background: linear-gradient(90deg, var(--teal), var(--electric));
+      box-shadow: 0 10px 40px rgba(0,240,200,0.12);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+    a.btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 60px rgba(0,240,200,0.16);
+    }
+    .logo-wrap {
+      margin-bottom: 40px;
+    }
+    .logo-wrap img {
+      width: 64px;
+      filter: drop-shadow(0 0 12px rgba(0,240,200,0.25));
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-wrap">
+    <img src="Seldrex.png" alt="SELDREX logo">
+  </div>
+
+  <h1>Request Received ✓</h1>
+  <p>Thanks for submitting your scan request.<br>
+     Our team will review it and send your confidential AI-powered report within 24–48 hours.</p>
+
+  <a href="/" class="btn">Return Home</a>
+
+</body>
+</html>
